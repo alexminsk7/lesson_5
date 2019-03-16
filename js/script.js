@@ -16,7 +16,7 @@ document.body.style.backgroundImage = "url('./img/apple_true.jpg')";
 document.getElementById('title').innerHTML = 'Мы продаем только подлинную технику Apple';
 
 //удаляем рекламу
-ad = document.querySelector('.adv');
+let ad = document.querySelector('.adv');
 ad.remove(ad);
 
 // мнение пользователя о Apple
